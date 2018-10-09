@@ -8,7 +8,7 @@ Development:
 	+ Test
 	+ Refine
 2. Visualization (post-JSON)
-	+ Update/Dynamic Title (Get from the user)
+	+ Make long exon labels multiple lines
 	+ About link
 	+ Test
 3. Create test data sets - Dr. Carroll

@@ -310,9 +310,10 @@ class Graph {
             .attr("text-anchor", "middle")
             .style("font-size", "24px")
             .style("decoration", "underline")
-            // .text("Gene Family Visualization")
-            .text("ERAP and TRHDE Family MSA Render")
+            .text("Gene Family Visualization")
+            //.text("ERAP and TRHDE Family MSA Render")
             .style("font-family", "'Helvetica'")
+            .attr("id", "gfvTitle")
 
 
 

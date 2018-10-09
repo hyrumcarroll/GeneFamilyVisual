@@ -19,23 +19,23 @@
         <script src="js/gfv.js"></script>
         <script src="js/create_json.js"></script>
         <script src="js/main.js"></script>
-        
-        
-        <!-- Changes the title to what user wants it to be -->
-        <p>Click the button to change the title of the document.</p>
-        <button onclick="getNewTitle()">New Title</button>
-        <p id="yourTitle"></p>
 
-        <script>
-            function getNewTitle() {
-                document.title = prompt("What is the new page title?");
-                document.getElementById("yourTitle").innerHTML = "Here is your new title of the page";
-            }
-        </script>
         <center>
+            <button onclick="getNewTitle()">New Title</button><!-- <p>Click the button to change the title of the document.</p> -->
             <button class="btn btn-success" onClick="download_svg()">Download SVG</button>
             <button class="btn btn-success" onClick="download_png()">Download PNG</button>
             <button class="btn btn-success" onClick="download_jpeg()">Download JPEG</button>
         </center>
+
+        <p id="yourTitle"></p>
+
+        <!-- Changes the title to what user wants it to be -->
+        <script>
+            function getNewTitle() {
+                document.title = prompt("What is the new page title?");
+                document.getElementById("gfvTitle").innerHTML = document.title;
+            }
+        </script>
+
     </body>
 </html>

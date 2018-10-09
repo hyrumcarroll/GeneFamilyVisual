@@ -1,6 +1,6 @@
 # Meeting Notes
 
-## July 24, 2018 - Updated To-dos
+## October 9, 2018 - Updated To-dos
 
 Development:
 1. Backend code (pre-JSON)

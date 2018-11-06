@@ -343,7 +343,7 @@ class Graph {
             .attr("x", p.width / 2)
             .attr("text-anchor", "middle")
             .style("font-size", "14px")
-            //.text("Pan around by clicking and dragging. Zoom by scrooling in and out. Hover over the name of a gene to the right to highlight its exons.")
+            .text("Pan around by clicking and dragging. Zoom by scrooling in and out. Hover over the name of a gene to the right to highlight its exons.")
             .style("font-family", "'Roboto', sans-serif")
 
     }

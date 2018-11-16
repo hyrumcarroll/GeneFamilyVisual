@@ -336,7 +336,7 @@ class Graph {
             .attr("x", p.width / 2)
             .attr("text-anchor", "middle")
             .style("font-size", "14px")
-            .text("Genetic dataset provided by Dr. Seipelt-Thiemann. Rendered autonomously using allignment and visualization algorithm.")
+           // .text("Genetic dataset provided by Dr. Seipelt-Thiemann. Rendered autonomously using allignment and visualization algorithm.")
             .style("font-family", "'Roboto', sans-serif")
         this.svg.append("text")
             .attr("y", p.height - 15)

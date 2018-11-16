@@ -101,7 +101,7 @@ class Graph {
         this.geneFamilyList = [];
     }
 
-    // function to add lables
+    // function to add labels
     addLegend(index, label, color) {
         var xPos = p.width - p.legendX;
         var yStartPos = p.legendY;

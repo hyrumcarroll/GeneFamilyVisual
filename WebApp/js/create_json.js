@@ -44,17 +44,17 @@ gfv_json.exon_list = [
   { column: 18, text: "162,168,171", length: 1, fullyUTR: 0 },
   { column: 19, text: "141,138", length: 1, fullyUTR: 0 },
   { column: 20, text: "76,79,82", length: 1, fullyUTR: 0 },
-  { column: 21, text: "150?", length: 1, fullyUTR: 0 },
+  { column: 21, text: "2591", length: 1, fullyUTR: 0 },
   { column: 21, text: "607", length: 1, fullyUTR: 0 },
-  { column: 21, text: "150?", length: 1, fullyUTR: 0 },
-  { column: 21, text: "150?", length: 1, fullyUTR: 0 },
-  { column: 21, text: "150?", length: 1, fullyUTR: 0 },
-  { column: 21, text: "150?", length: 1, fullyUTR: 0 },
+  { column: 21, text: "1625", length: 1, fullyUTR: 0 },
+  { column: 21, text: "1932", length: 1, fullyUTR: 0 },
+  { column: 21, text: "1010", length: 1, fullyUTR: 0 },
+  { column: 21, text: "2419", length: 1, fullyUTR: 0 },
   { column: 21, text: "2233", length: 1, fullyUTR: 0 },
 ];
 
 // create a set of colors for family identification
-colors = create_random_colors(8);
+// colors = create_random_colors(8);
 
 // create family list
 // FORMAT: { EXON_ARRAY, COLOR, FAMILY_NAME }
